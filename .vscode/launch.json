@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/nathan/Repositories/atlas-system_algorithms/atlas-system_algorithms/red_black_tree",
+      "program": "/Users/nathan/Repositories/atlas-system_algorithms/atlas-system_algorithms/red_black_tree/build/Debug/outDebug"
+    }
+  ]
+}
