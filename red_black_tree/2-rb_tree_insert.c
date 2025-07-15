@@ -184,7 +184,7 @@ static void fix_insert_violations(rb_tree_t **root_ptr, rb_tree_t *new_node)
 		// Case B: Parent is right child of grandparent (symmetric to Case A)
 		else
 		{
-			uncle = grandparent->left;
+			uncle = get_uncle(new_node);
 
 			// Case 1: Uncle is RED (recoloring)
 			if (uncle != NULL && uncle->color == RED)
