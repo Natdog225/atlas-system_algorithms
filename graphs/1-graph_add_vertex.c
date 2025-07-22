@@ -70,9 +70,7 @@ vertex_t *graph_add_vertex(graph_t *graph, const char *str)
 			current_vertex = current_vertex->next;
 		current_vertex->next = new_vertex;
 	}
-
 	new_vertex->index = graph->nb_vertices;
 	graph->nb_vertices++;
-
 	return (new_vertex);
 }
