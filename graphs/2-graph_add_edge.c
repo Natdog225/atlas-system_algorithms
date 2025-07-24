@@ -103,11 +103,6 @@ int graph_add_edge(graph_t *graph, const char *src,
 		success_dest_to_src = add_single_edge(dest_v, src_v);
 		if (!success_dest_to_src)
 		{
-			/* If adding reverse edge fails, ideally we should remove the
-			 * first edge to maintain atomicity, but problem statement
-			 * implies no memory leak on failure for the entire operation.
-			 * The current add_single_edge handles duplicates, so this is fine.
-			 */
 			return (0);
 		}
 	}
