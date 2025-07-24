@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include <stdio.h>	/* For NULL in memset if needed, but not strictly for algo */
-#include <string.h> /* For memset if needed */
+#include <stdio.h>
+#include <string.h>
 #include "graphs.h"
 
 
