@@ -3,16 +3,6 @@
 #include <string.h> /* For memset if needed */
 #include "graphs.h"
 
-/*
- * Note: For DFS/BFS, a common approach is to use a visited array.
- * Since global variables are not allowed and modifying the graph_t
- * structure for traversal state is not ideal/allowed by the prototypes,
- * we'll pass a visited array as an argument or create a temporary one.
- * Given the constraint of no more than 5 functions per file,
- * and the need for a recursive DFS helper, we will implement
- * the visited array logic carefully.
- * We'll use a dynamic array of integers for `visited` status.
- */
 
 /**
  * dfs_recursive - Helper function for depth_first_traverse.
