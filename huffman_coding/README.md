@@ -1,0 +1,1 @@
+Readme for Huffman coding project. 
