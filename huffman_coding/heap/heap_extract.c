@@ -59,14 +59,14 @@ void *heap_extract(heap_t *heap)
 		else
 			temp_node = temp_node->left;
 	}
-	last_node = temp_node;
-	heap->root->data = last_node->data;
-	if (last_node->parent->left == last_node)
-		last_node->parent->left = NULL;
-	else
-		last_node->parent->right = NULL;
-	free(last_node);
-	heap->size--;
-	heapify_down(heap);
-	return (data);
-}
+		last_node = temp_node;
+		heap->root->data = last_node->data;
+		if (last_node->parent->left == last_node)
+			last_node->parent->left = NULL;
+		else
+			last_node->parent->right = NULL;
+			heap->size--;
+		free(last_node);
+		heapify_down(heap);
+		return (data);
+	}
