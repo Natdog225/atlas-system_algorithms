@@ -18,7 +18,7 @@ typedef struct point_s
 	int y;
 } point_t;
 
-/* Function Prototypes for the Project Tasks */
+/* Function Prototypes */
 
 queue_t *backtracking_array(char **map, int rows, int cols,
 							point_t const *start, point_t const *target);
