@@ -1,0 +1,25 @@
+# Compiled Object files
+*.o
+
+# Compiled Executable files
+# Add any executables you create here
+0-backtracking_array
+1-backtracking_graph
+2-dijkstra_graph
+2-dijkstra_graph_1
+
+# Precompiled Libraries
+*.a
+*.so
+
+# Editor backup and swap files
+*~
+*.swp
+*.swo
+.#*
+main.c
+#*#
+
+# OS generated files
+.DS_Store
+Thumbs.db
